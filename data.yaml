@@ -20,48 +20,48 @@ basic:
 
 about:
   text: |
-    I’m a Senior Software Engineer at <a href="https://www.linkedin.com">LinkedIn</a> working on distributed systems, infrastructure, reliability, and AI-driven automation.
+    I’m a <b>Senior Software Engineer</b> at <a href="https://www.linkedin.com">LinkedIn</a> working on <i>distributed systems</i>, <i>infrastructure</i>, <i>reliability</i>, and <i>AI-driven automation</i>.
 
-    I enjoy building and evolving large-scale systems that solve complex infrastructure and reliability problems. My work has included global traffic management, multi-provider cloud and CDN architectures, DNS-based traffic steering, automated failover, and systems for improving performance, resilience, and operational efficiency.
+    I enjoy building and evolving large-scale systems that solve complex infrastructure and reliability problems. My work has included <b>global traffic management</b>, <b>multi-provider cloud and CDN architectures</b>, <b>DNS-based traffic steering</b>, automated failover, and systems for improving performance, resilience, and operational efficiency.
 
-    More recently, I’ve been building production agentic AI systems for infrastructure engineering. I built an agentic investigation platform for Edge infrastructure and have extended it to support broader, ad hoc investigations, integrating agents with tools and production observability data through MCP, including RUM and synthetic telemetry.
+    More recently, I’ve been building <b>production agentic AI systems</b> for infrastructure engineering. I built an agentic investigation platform for <i>Edge infrastructure</i> and have extended it to support broader, ad hoc investigations, integrating agents with tools and production observability data through <b>MCP</b>, including <i>RUM</i> and synthetic telemetry.
 
-    I typically work across the full lifecycle of a problem — from identifying opportunities and defining requirements, to designing systems, building them, and driving them into production. I enjoy working on ambiguous problems that require both deep technical thinking and cross-team collaboration.
+    I typically work across the full lifecycle of a problem — from identifying opportunities and defining requirements, to designing systems, building them, and driving them into production. I enjoy working on ambiguous problems that require both <b>deep technical thinking</b> and <b>cross-team collaboration</b>.
 
-    My core areas of interest are distributed systems, cloud infrastructure, reliability, networking, and practical applications of AI in engineering.
+    My core areas of interest are <i>distributed systems</i>, <i>cloud infrastructure</i>, <i>reliability</i>, <i>networking</i>, and practical applications of <i>AI in engineering</i>.
 
 experience:
   - title: Senior Software Engineer, Reliability
     tenure: Oct 2025 - Present
     location: Bengaluru, India
     text:
-      - Set technical direction, requirements, and roadmap for Edge reliability and automation initiatives, driving high-impact projects from architecture through production.
-      - Led the design and development of <b>Edge Brain</b>, a global intelligent DNS traffic-steering platform managing ~3M QPS across 7 traffic providers and 2 DNS providers; personally built the central control plane and data plane.
-      - Built provider health-scoring and multi-metric optimization systems using availability, latency, performance, cost, and traffic signals to generate optimal provider assignments and execute country-level or global traffic shifts through DNS; reduced CDN outage detection and mitigation from <b>7 minutes to 2 minutes</b>.
-      - Designed autonomous failover and safety mechanisms for Edge Brain, helping reduce serving costs and overage charges by <b>millions of dollars annually</b> while minimizing engineer intervention.
-      - Expanded the production agentic AI investigation platform into a general-purpose service for <b>ad hoc Edge investigations</b>, integrating it with Claude and GitHub Copilot as an on-demand investigation skill and building MCP tools to connect agents with production RUM and synthetic performance telemetry.
-      - Led development of an in-house RUM pipeline covering <b>all LinkedIn user sessions</b>, providing end-user performance signals for intelligent traffic steering and AI-driven infrastructure investigations.
+      - Set <b>technical direction, requirements, and roadmap</b> for Edge reliability and automation initiatives, driving high-impact projects from architecture through production.
+      - Led the design and development of <b>Edge Brain</b>, a global intelligent <i>DNS traffic-steering platform</i> managing ~<b>3M QPS</b> across <b>7 traffic providers</b> and <b>2 DNS providers</b>; personally built the central <b>control plane and data plane</b>.
+      - Built provider <b>health-scoring</b> and <b>multi-metric optimization</b> systems using availability, latency, performance, cost, and traffic signals to generate optimal provider assignments and execute country-level or global traffic shifts through DNS; reduced CDN outage detection and mitigation from <b>7 minutes to 2 minutes</b>.
+      - Designed <b>autonomous failover and safety mechanisms</b> for Edge Brain, helping reduce serving costs and overage charges by <b>millions of dollars annually</b> while minimizing engineer intervention.
+      - Expanded the production <b>agentic AI investigation platform</b> into a general-purpose service for <i>ad hoc Edge investigations</i>, integrating it with <b>Claude</b> and <b>GitHub Copilot</b> as an on-demand investigation skill and building <b>MCP tools</b> to connect agents with production RUM and synthetic performance telemetry.
+      - Led development of an in-house <b>RUM pipeline</b> covering <b>all LinkedIn user sessions</b>, providing end-user performance signals for intelligent traffic steering and AI-driven infrastructure investigations.
 
   - title: Senior Engineer, Site Reliability
     tenure: Oct 2023 - Sep 2025
     location: Bengaluru, India
     text:
       - Led the multi-year migration of LinkedIn's edge delivery to a <b>multi-provider architecture with Cloudflare</b>, leading the project team and driving alignment across product, security, traffic, and performance organizations; owned performance validation, real-traffic A/B testing, Cloudflare configuration, production rollout, and RUM instrumentation, improving <b>DDoS protection</b>, resilience, and performance while delivering <b>multi-million-dollar annual savings</b>.
-      - Built and productionized a <b>general-purpose agentic AI platform</b> for Edge infrastructure RCA using LangChain and Temporal, automating SLO-breach investigation and incident enrichment and reducing engineer investigation time from <b>30 minutes to 3 minutes (90%)</b>; deployed it across the Edge team and established the foundation for the generalized investigation platform used today.
+      - Built and productionized a <b>general-purpose agentic AI platform</b> for <i>Edge infrastructure RCA</i> using <b>LangChain</b> and <b>Temporal</b>, automating SLO-breach investigation and incident enrichment and reducing engineer investigation time from <b>30 minutes to 3 minutes (90%)</b>; deployed it across the Edge team and established the foundation for the generalized investigation platform used today.
 
   - title: Site Reliability Engineer
     tenure: July 2021 - Sep 2023
     location: Bengaluru, India
     text:
-      - Built an AI-driven DNS orchestration system for automated Edge failover and optimal traffic routing across Azure Front Door and CDN infrastructure.
-      - Drove migration of LinkedIn traffic from legacy Edge infrastructure to <b>Azure Front Door</b>, including production configuration and DNS ramp-up; partnered with Microsoft Azure engineering teams to identify and resolve AFD issues.
-      - Improved <i>lnkd.in</i> performance by eliminating an unnecessary redirect and enabling Azure Front Door edge caching.
+      - Built an <b>AI-driven DNS orchestration system</b> for automated Edge failover and optimal traffic routing across <i>Azure Front Door</i> and CDN infrastructure.
+      - Drove migration of LinkedIn traffic from legacy Edge infrastructure to <b>Azure Front Door</b>, including production configuration and DNS ramp-up; partnered with <b>Microsoft Azure engineering teams</b> to identify and resolve AFD issues.
+      - Improved <b><i>lnkd.in</i></b> performance by eliminating an unnecessary redirect and enabling <i>Azure Front Door edge caching</i>.
 
   - title: Site Reliability Engineering Intern
     tenure: May 2020 - July 2020
     location: Bengaluru, India (Remote)
     text:
-      - Developed an AI-based diagnostic pipeline for identifying site-performance issues and capacity bottlenecks across LinkedIn's service-oriented infrastructure.
+      - Developed an <b>AI-based diagnostic pipeline</b> for identifying site-performance issues and capacity bottlenecks across LinkedIn's service-oriented infrastructure.
 
 education:
   - school: Netaji Subhas Institute of Technology
