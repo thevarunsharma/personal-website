@@ -1,8 +1,8 @@
 page:
   title: Varun Sharma
-  icon: /static/icons/logo.ico
-  css: /static/css/style.css
-  script: /static/scripts/script.js
+  icon: static/icons/logo.ico
+  css: static/css/style.css
+  script: static/scripts/script.js
   url: https://www.varunsharma.net/
 
 deployment:
@@ -10,13 +10,13 @@ deployment:
 
 basic:
   name: Varun Sharma
-  profile_img: /static/media/profile_pic.jpg
+  profile_img: static/media/profile_pic.jpg
   title: Senior Software Engineer, Reliability<br/>at <b><a href="https://www.linkedin.com">LinkedIn</a></b>
   email: varunsh1701@gmail.com
   address: Bengaluru, Karnataka, India
   linkedin: https://lnkd.in/thevarunsharma
   github: https://github.com/thevarunsharma
-  resume: /static/media/Varun_Sharma.pdf
+  resume: static/media/Varun_Sharma.pdf
 
 about:
   text: |
@@ -166,7 +166,7 @@ contact:
   map_location: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.99740305037!2d77.3507368942719!3d12.953847717752192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1672225819939!5m2!1sen!2sin
 
 assets:
-  download_logo: /static/icons/download-icon.svg
-  github_logo: /static/icons/github-icon.svg
-  linkedin_logo: /static/icons/linkedin-icon.svg
-  email_logo: /static/icons/email-icon.svg
+  download_logo: static/icons/download-icon.svg
+  github_logo: static/icons/github-icon.svg
+  linkedin_logo: static/icons/linkedin-icon.svg
+  email_logo: static/icons/email-icon.svg
