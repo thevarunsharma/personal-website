@@ -20,43 +20,48 @@ basic:
 
 about:
   text: |
-    Hi, I’m a Software Engineer based in Bangalore, India, working in Software Infrastructure and Site Reliability.
+    I’m a Senior Software Engineer at <a href="https://www.linkedin.com">LinkedIn</a> working on distributed systems, infrastructure, reliability, and AI-driven automation.
 
-    At <a href="https://www.linkedin.com">LinkedIn</a>, I’ve been fortunate to gain hands-on experience with the Edge Network Infrastructure that powers large-scale, internet-facing platforms. My work involves building and automating systems around technologies like <i>Domain Name Systems</i> (<b>DNS</b>), <i>Content Delivery Networks</i> (<b>CDNs</b>) and <i>Edge-Proxies</i> (<b>Cloudflare</b>, <b>Azure Front Door</b>, etc.).
+    I enjoy building and evolving large-scale systems that solve complex infrastructure and reliability problems. My work has included global traffic management, multi-provider cloud and CDN architectures, DNS-based traffic steering, automated failover, and systems for improving performance, resilience, and operational efficiency.
 
-    I’m especially passionate about intelligent automation. I enjoy spotting patterns in repetitive tasks and finding ways to automate them—because I believe those tasks are better handled by machines. In the SRE and DevOps space, I see a lot of potential for AI to reduce operational load and support engineers during incident response and triaging.
+    More recently, I’ve been building production agentic AI systems for infrastructure engineering. I built an agentic investigation platform for Edge infrastructure and have extended it to support broader, ad hoc investigations, integrating agents with tools and production observability data through MCP, including RUM and synthetic telemetry.
 
-    At <i>LinkedIn's Edge Infrastructure team</i>, I built an automation system that can dynamically orchestrate Edge infrastructure based on performance metrics. I also developed a pipeline that performs automated Root-Cause Analysis for Azure Front Door-related availability incidents.
+    I typically work across the full lifecycle of a problem — from identifying opportunities and defining requirements, to designing systems, building them, and driving them into production. I enjoy working on ambiguous problems that require both deep technical thinking and cross-team collaboration.
 
-    During my internship with <i>LinkedIn's Capacity Engineering team</i>, I designed an AI-based pipeline that used statistical heuristics and graph search to identify top root causes of anomalies during site load testing.
+    My core areas of interest are distributed systems, cloud infrastructure, reliability, networking, and practical applications of AI in engineering.
 
 experience:
   - title: Senior Software Engineer, Reliability
     tenure: Oct 2025 - Present
     location: Bengaluru, India
     text:
-      - Senior Individual Contributor in the Edge Performance and Engineering team at LinkedIn
-      - Building intelligent automation for the Edge!
+      - Set technical direction, requirements, and roadmap for Edge reliability and automation initiatives, driving high-impact projects from architecture through production.
+      - Led the design and development of <b>Edge Brain</b>, a global intelligent DNS traffic-steering platform managing ~3M QPS across 7 traffic providers and 2 DNS providers; personally built the central control plane and data plane.
+      - Built provider health-scoring and multi-metric optimization systems using availability, latency, performance, cost, and traffic signals to generate optimal provider assignments and execute country-level or global traffic shifts through DNS; reduced CDN outage detection and mitigation from <b>7 minutes to 2 minutes</b>.
+      - Designed autonomous failover and safety mechanisms for Edge Brain, helping reduce serving costs and overage charges by <b>millions of dollars annually</b> while minimizing engineer intervention.
+      - Expanded the production agentic AI investigation platform into a general-purpose service for <b>ad hoc Edge investigations</b>, integrating it with Claude and GitHub Copilot as an on-demand investigation skill and building MCP tools to connect agents with production RUM and synthetic performance telemetry.
+      - Led development of an in-house RUM pipeline covering <b>all LinkedIn user sessions</b>, providing end-user performance signals for intelligent traffic steering and AI-driven infrastructure investigations.
+
   - title: Senior Engineer, Site Reliability
-    tenure: Oct 2023 - Sept 2025
+    tenure: Oct 2023 - Sep 2025
     location: Bengaluru, India
     text:
-      - Led the transformation of LinkedIn's Edge delivery infrastructure to a multi-provider architecture, improving resiliency, performance, DDoS protection, and saving millions in serving costs.
-      - Built a general purpose Agentic-AI pipeline with langchain and temporal for Edge Infrastructure related root cause analysis, cutting down 70% of engineers' time spent in SLO breach investigations.
+      - Led the multi-year migration of LinkedIn's edge delivery to a <b>multi-provider architecture with Cloudflare</b>, leading the project team and driving alignment across product, security, traffic, and performance organizations; owned performance validation, real-traffic A/B testing, Cloudflare configuration, production rollout, and RUM instrumentation, improving <b>DDoS protection</b>, resilience, and performance while delivering <b>multi-million-dollar annual savings</b>.
+      - Built and productionized a <b>general-purpose agentic AI platform</b> for Edge infrastructure RCA using LangChain and Temporal, automating SLO-breach investigation and incident enrichment and reducing engineer investigation time from <b>30 minutes to 3 minutes (90%)</b>; deployed it across the Edge team and established the foundation for the generalized investigation platform used today.
+
   - title: Site Reliability Engineer
-    tenure: July 2021 - Sept 2023
+    tenure: July 2021 - Sep 2023
     location: Bengaluru, India
     text:
-      - Working with the Edge Infrastructure team, responsible for managing LinkedIn's Edge Network which involves services like DNS, CDNs, Azure Front Door, TLS certificates and related tools.
-      - Developed an AI-based tool capable of intelligently orchestrating the Edge (AFD, PoPs, CDNs) on the DNS layer for optimal end-user availability. This completely automated the mundane task of manual fail-overs, cutting down on several man hours.
-      - Worked on migrating site-traffic from LinkedIn's legacy Edge on to Azure Front Door. Responsible for setting up Azure Front Door and DNS ramp for the migration.
-      - Worked closely with Microsoft Azure counterparts to help them recognize and solve ongoing issues with their AFD platform as it pertains to LinkedIn. Worked on devising a Proof of Concept for performing Automated Root Cause Analysis of such issues.
-      - Introduced manifold improvements to LinkedIn's url short-link feature - <i>lnkd.in</i> - by aligning stakeholders to remove extra redirect and by onboarding it to AFD with Caching at the Edge.
+      - Built an AI-driven DNS orchestration system for automated Edge failover and optimal traffic routing across Azure Front Door and CDN infrastructure.
+      - Drove migration of LinkedIn traffic from legacy Edge infrastructure to <b>Azure Front Door</b>, including production configuration and DNS ramp-up; partnered with Microsoft Azure engineering teams to identify and resolve AFD issues.
+      - Improved <i>lnkd.in</i> performance by eliminating an unnecessary redirect and enabling Azure Front Door edge caching.
+
   - title: Site Reliability Engineering Intern
     tenure: May 2020 - July 2020
     location: Bengaluru, India (Remote)
     text:
-      - Worked with the Capacity Engineering team to devise an AI pipeline for diagnosing site performance issues and detecting capacity bottlenecks in Linkedin's RESTful service oriented infrastructure.
+      - Developed an AI-based diagnostic pipeline for identifying site-performance issues and capacity bottlenecks across LinkedIn's service-oriented infrastructure.
 
 education:
   - school: Netaji Subhas Institute of Technology
@@ -81,78 +86,66 @@ skills:
     fields:
       - name: Python
         percent: 90
-      - name: Java
-        percent: 70
-      - name: C/C++
-        percent: 60
       - name: Golang
-        percent: 50
-      - name: JavaScript
-        percent: 60
-      - name: Data Structures and Algorithms
-        percent: 80
-  - title: Computer Networks
-    fields:
-      - name: Domain Name System (DNS)
-        percent: 80
-      - name: Content Delivery Networks (CDNs)
-        percent: 80
-      - name: Distrbuted Networks
-        percent: 60
-      - name: TCP/IP
-        percent: 70
-      - name: Microsoft Azure
+        percent: 75
+      - name: C/C++
         percent: 65
-  - title: Internet Technologies
+      - name: Java
+        percent: 60
+      - name: SQL
+        percent: 70
+
+  - title: Distributed Systems & Infrastructure
     fields:
-      - name: Python-Flask Framework
+      - name: Distributed Systems
         percent: 85
-      - name: REST-APIs
-        percent: 70
-      - name: Spring-Boot
-        percent: 50
-      - name: HTTP/HTTPS
-        percent: 70
-  - title: Datastores
+      - name: Site Reliability Engineering
+        percent: 85
+      - name: DNS
+        percent: 90
+      - name: CDNs
+        percent: 90
+      - name: Edge Computing
+        percent: 90
+      - name: TCP/IP & HTTP/HTTPS
+        percent: 75
+
+  - title: Cloud & Networking
     fields:
-      - name: MySQL
-        percent: 65
-      - name: Azure Blob Storage
-        percent: 50
-      - name: Firebase
-        percent: 60
-      - name: RabbitMQ
-        percent: 50
-  - title: Tools
-    fields:
-      - name: Linux
-        percent: 70
-      - name: Docker
-        percent: 50
-      - name: Git/Github
-        percent: 60
-  - title: Aritficial Intelligence
+      - name: Microsoft Azure
+        percent: 85
+      - name: Azure Front Door
+        percent: 90
+      - name: Cloudflare
+        percent: 85
+
+  - title: AI & Agentic Systems
     fields:
       - name: Agentic AI
-        percent: 70
-      - name: Langchain
-        percent: 60
+        percent: 90
+      - name: Generative AI
+        percent: 85
+      - name: MCP
+        percent: 85
+      - name: LangChain
+        percent: 80
       - name: Machine Learning
         percent: 70
-      - name: Deep Learning
+
+  - title: Systems & Frameworks
+    fields:
+      - name: Linux
         percent: 80
-      - name: Natural Language Processing
-        percent: 60
-      - name: Computer Vision
-        percent: 65
-      - name: Tensorflow
-        percent: 65
-      - name: Keras
-        percent: 75
-      - name: Scikit-Learn
-        percent: 75
-      - name: Mathematical Modelling
+      - name: Docker
         percent: 70
+      - name: Temporal
+        percent: 80
+      - name: FastAPI
+        percent: 75
+      - name: Flask
+        percent: 85
+      - name: RabbitMQ
+        percent: 65
 
 posts:
   - title: Hybrid Edge using AFD & LinkedIn's PoPs
